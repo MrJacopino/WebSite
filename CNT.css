@@ -1,0 +1,142 @@
+/*#ffffcc#ffff99*/
+/*#0073e6#0080ff*/
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: arial, helvetica, verdana, tahoma, sans-serif;
+	font-size: 100%;
+	margin: 0em;
+	padding: 0em;
+}
+
+#struttura {
+	background-color: #fff;
+	color: #000;
+	margin: 0em;
+	padding: 0em;
+	text-align: left;
+	width: 100%;
+}
+
+#header {
+	background-color: #ffff99;
+	background-image: url("img/MusicaNovecento.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #000;
+	font: normal 280% Georgia, "Times New Roman", Times, serif;
+	height: 200px;
+	padding-left: 0.6em;
+	margin: auto;
+	position: relative;
+}
+
+#sfondo {
+	background-color: #ffffcc;
+	position: relative;
+}
+
+#menu {
+	width: 15%;
+	border-right: 1px solid #000;
+	background-color: #ffffcc;
+	font: 90% Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu li {
+	display: inline;
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0;
+}
+#menu a:link, #menu a:visited {
+	background: #ffffcc;
+	border: 1px solid #666;
+	color: #0080ff;
+	display: block;
+	margin: 0.06em 0;
+	padding: 0.3em 0.6em;
+	text-decoration: none;
+}
+#menu a:hover, #menu a:focus, #menu a:active {
+	background: #0080ff;
+	border-color: #41545F;
+	color: #ffff99;
+	padding-left: 0.95em;
+	font-weight: bold;
+}
+
+#content {
+	background: #ffffcc;
+	border-left: 1px solid #000;
+	color: #000;
+	margin-left: 16%;
+	padding: 2em;
+}
+#content p {
+	font-size: 100%;
+	line-height: 1.8em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: justify;
+  	text-justify: inter-word;
+	color:#000;
+}
+#content h1 {
+	border-bottom: 1px dotted #0073e6;
+	color: #0073e6;
+	font: normal 180% Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 0.3em;
+	padding-top: 0.3em;
+}
+#content h2 {
+	border-bottom: 1px dotted #0080ff;
+	color: #0080ff;
+	font: normal 150% Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 0.3em;
+}
+#content a:link, #content a:visited {
+	color: #000066;
+	text-decoration: underline;
+}
+#content a:hover {
+	color: #000066;
+	text-decoration: underline;
+}
+#content img {
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+#footer {
+	background: #ffff99;
+	border: 1px solid #000;
+	border-bottom: 1px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 1px;
+	color: #0073e6;
+	font-family: helvetica, arial, verdana, tahoma, sans-serif;
+	font-size: 80%;
+	margin: 0 auto;
+	padding: 0.8em 0.8em;
+	text-align: center;
+}
+#footer a:link, #footer a:visited {
+	background-color: #420702;
+	color: #fff;
+	text-decoration: underline;
+}
+#footer a:hover {
+	background-color: #fff;
+	color: #420702;
+	text-decoration: none;
+}
